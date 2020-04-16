@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "616255761522",
+    "firebase_url": "https://fir-push-notification-ex-28eff.firebaseio.com",
+    "project_id": "fir-push-notification-ex-28eff",
+    "storage_bucket": "fir-push-notification-ex-28eff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616255761522:android:65f0e9ac1403994aa7e6eb",
+        "android_client_info": {
+          "package_name": "com.rnfirebasepushnotificationsexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616255761522-gqa4cdcug6ca1igfs9sa1rkf9oik11p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf05VgxX8PpXYj2pgMVTnBNzoURT7hjX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616255761522-gqa4cdcug6ca1igfs9sa1rkf9oik11p9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "616255761522-mgdbehvur1evhh4p8jeq33a2m0lo8pkt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.RnFirebasePushNotificationsExample"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

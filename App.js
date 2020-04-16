@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -23,8 +23,17 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import messaging from '@react-native-firebase/messaging';
+
 
 const App: () => React$Node = () => {
+   useEffect(async ()  => {
+    await messaging().registerDeviceForRemoteMessages();
+    await messaging().requestPermission();
+    console.log(await messaging().getToken())
+  }, [])
+
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
